@@ -1,0 +1,10 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@assets/*": ["./assets/*"],
+      "@components/*": ["./components/*"]
+    }
+  },
+  "include": ["src/components", "src/custom.d.ts"]
+}
